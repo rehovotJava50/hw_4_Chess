@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chess {
+  display: flex;
+  flex-direction: column;
+}
+
+.chess_item {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+.letters_item {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.chess_list,
+.letters {
+  display: flex;
+}
+
+.odd {
+  background-color: black;
+}
+
+.num {
+  background-color: transparent;
+  border: none;
+}
