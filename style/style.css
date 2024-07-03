@@ -15,14 +15,14 @@
 }
 
 .chess_item {
-  width: 30px;
-  height: 30px;
+  width: 5vw;
+  height: 5vw;
   border: 1px solid black;
 }
 
 .letters_item {
-  width: 30px;
-  height: 30px;
+  width: 5vw;
+  height: 5vw;
   text-align: center;
 }
 
@@ -35,7 +35,11 @@
   background-color: black;
 }
 
+.letters_item,
 .num {
   background-color: transparent;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
